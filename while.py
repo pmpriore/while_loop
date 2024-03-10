@@ -14,5 +14,6 @@ while user_input != -1:
     user_input = int(input("Please enter another number or type -1 to exit: "))
 
     if user_input == -1:
-        print((total)/(counter))
+        average = total / counter
+        print(f"The average of all your inputs is: {average:.2f}")
         break
